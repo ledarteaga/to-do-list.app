@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>Lista de Tareas</h1></div>
+        <div class="task-container">
+            <input type="text" name="" id="task-input" placeholder="Ingresa una tarea..." value="">
+            <button id="btn" type="reset"><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <div class="task-list-container">
+            <ul class="task-list" id="task-list">
+                <!-- Tareas agregadas con javascript -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
